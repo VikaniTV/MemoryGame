@@ -49,10 +49,7 @@ img{
     margin: 10px
 }
 
-.flip{
-    transform: rotateY(180deg);
-}
-@media  (max-width: 600px){
+@media  (min-width: 100px) and (max-width: 600px){
     .container{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
