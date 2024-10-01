@@ -1,0 +1,52 @@
+h1{
+    padding-top: 10px;
+}
+body {
+    background-color: #77E4C8;
+    width: 100vw;
+    height: 100vh;
+    color: #16a7b4
+}
+.btn-primary{
+    --bs-btn-bg: #478CCF;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+.section-2{
+    width: 100vw;
+}
+
+.container{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    width: 500px;
+}
+
+.button-card{
+    background-color: #478CCF;
+    width: 200px;
+    height: 200px;
+
+}
+
+.hidden{
+    visibility: hidden;
+}
+.buttons{
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.ready{
+    margin: 10px;
+}
+.new--game{
+    margin: 10px
+}
+
+.flip{
+    transform: rotateY(180deg);
+}
