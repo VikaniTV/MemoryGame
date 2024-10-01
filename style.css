@@ -1,3 +1,5 @@
+
+
 h1{
     padding-top: 10px;
 }
@@ -23,9 +25,9 @@ img{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 20px;
-    width: 500px;
+    width: max-content;
 }
-
+ 
 .button-card{
     background-color: #478CCF;
     width: 200px;
@@ -49,4 +51,21 @@ img{
 
 .flip{
     transform: rotateY(180deg);
+}
+@media  (max-width: 600px){
+    .container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 5px;
+    }
+    img{
+        height: 100px;
+        width: 100px;
+    }
+    .button-card{
+        background-color: #478CCF;
+        width: 100px;
+        height: 100px;
+    
+    }
 }
